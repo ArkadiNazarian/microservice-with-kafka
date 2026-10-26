@@ -14,9 +14,11 @@ const run = async () => {
         topics: [
             {
                 topic: "payment-successful",
+                numPartitions: 1,
             },
             {
                 topic: "order-successful",
+                numPartitions: 1,
             },
         ],
     });

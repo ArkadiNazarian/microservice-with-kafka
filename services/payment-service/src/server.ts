@@ -7,7 +7,7 @@ const kafkaServer = new Kafka({
     brokers: ["localhost:9094"],
 });
 
-const producer = kafkaServer.producer();
+export const producer = kafkaServer.producer();
 
 const connectToKafka = async () => {
     try {
